@@ -141,12 +141,6 @@ alura-space/
 
 ---
 
-## 📄 **Licença**
-
-Este projeto está sob a licença MIT. Consulte o arquivo [LICENSE](LICENSE) para mais detalhes.
-
----
-
 ## 🙌 **Agradecimentos**
 
 Agradeço à Alura pelo curso incrível e à comunidade Django por fornecer uma ferramenta tão poderosa para desenvolvimento web.
