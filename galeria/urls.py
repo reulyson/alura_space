@@ -3,6 +3,6 @@ from galeria.views import index  # Importa a função 'index' da view
 from galeria.views import imagem# Importa a função 'imagem' da view
 
 urlpatterns = [ # Define uma lista de padrões de URL
-    path('', index, name='index'), # Rota para a URL raiz ('/'), que chama a função 'index'
-    path('imagem/', imagem, name='imagem'), # Rota para a URL raiz ('imagem/'), que chama a função 'imagem'
+    path('', index, name='index'), # Rota para a página inicial
+    path('imagem/<int:foto_id>', imagem, name='imagem'), # Rota para a página da imagem, recebendo o id da foto
 ]
