@@ -23,7 +23,7 @@
                             {% if cards %} <!--verificando se existe cards antes de dar inicio ao for-->
                             {% for fotografia in cards %} <!-- criando um estrutura de repetição para carregar as informações das fotos que estão armazenadas no banco de dados -->
                             <li class="card">
-                                <a href="{% url 'imagem' %}">
+                                <a href="{% url 'imagem' fotografia.id  %}">
                                     <img class="card__imagem" src="{% static '/assets/imagens/galeria/'%}{{fotografia.foto}}" alt="foto">
                                 </a>
                                 <span class="card__tag">Estrelas</span>

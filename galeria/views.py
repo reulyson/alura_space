@@ -1,6 +1,4 @@
-from django.shortcuts import render, get_object_or_404 # Importa a função render para renderizar templates e get_object_or_404  o objeto do banco de dado pelo seu id ou gerar o código 404 (não encontrado)
-from galeria.models import Fotografia
-from django.shortcuts import render  # Importa a função render para renderizar templates
+from django.shortcuts import render, get_object_or_404 # Importa a função render para renderizar templates
 from galeria.models import Fotografia
 
 def index(request):
