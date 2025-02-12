@@ -20,4 +20,4 @@ class Fotografia(models.Model): # Estamos criando uma nova classe chamada Fotogr
     data_fotografia = models.DateTimeField(default=datetime.now, blank=False)
 
     def __str__(self):
-        return f"Fotografia [nome={self.nome}]" # Este método define como o objeto Fotografia será representado como uma string. Isso é útil para facilitar a visualização dos objetos no Django Admin ou em outros lugares.0
+        return self.nome # Melhora a visualização dos itens no Admin
