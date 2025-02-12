@@ -128,6 +128,12 @@ STATICFILES_DIRS = [
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'static') #Necessário para que o Django possa coletar e organizar todos os arquivos estáticos em um único diretório.
 
+# Media
+
+MEDIA_ROOT = os.path.join(BASE_DIR, "media")
+
+MEIDA_URL = "/media/"
+
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
