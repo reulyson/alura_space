@@ -22,4 +22,5 @@ from django.conf.urls.static import static
 urlpatterns = [
     path('admin/', admin.site.urls), # Rota para a interface administrativa do Django
     path('', include('galeria.urls')), # Inclui as rotas definidas no arquivo 'galeria/urls.py'
+    path('', include("usuarios.urls")), # Inclui as rotas definidas no arquivo 'galeria/urls.py'
 ]   + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
